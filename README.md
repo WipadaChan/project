@@ -12,8 +12,8 @@ You will find :
 How the script work:
 --------
 The original data has been seperate for traing and testing while we need to combine these two dataset together.
-1. Each dataset: train and test will be processed first. There are 3 files related with the prefix X, Y, and Subject for both train and test data. These three files will combine together in order to be able to identify each observation by subjectID and activityLabel by using cbind() function. 
 
+1. Each dataset: train and test will be processed first. There are 3 files related with the prefix X, Y, and Subject for both train and test data. These three files will combine together in order to be able to identify each observation by subjectID and activityLabel by using cbind() function. 
 2. After both train and test were processed, then both dataset will combine together with rbind() function.
 3. Since we need to extract only Mean and Standard diviation value of each measurement, we need to know which column to be extract.
 4. Read the feature file to get all measurements items contain in the dataset.
