@@ -23,8 +23,8 @@ The original data has been seperate for traing and testing while we need to comb
 8. Then set the column name by the vector that create in step 6.
 9. Label the activity by merge the activityID from activity_labels.txt with our dataset.
 10. Use aggregate function to calculate the average value of each measurment item by subjectID and activity.
-11. Sice I can done step 10 one by one and we have 79 items, so I loop them and merge them into one datafram.
-12. At the end we will get finalDataset as a data frame where it will be write to a text file name "sensor_avg_by_act_sub.txt".
+11. Sice I can done step 10 one by one and we have 79 items, so I loop them and merge them into one data frame.
+12. At the end we will get "finalDataset" as a data frame where it will be write to a text file name "sensor_avg_by_act_sub.txt".
 
 Enjoy and Have a nice time. :)
 
