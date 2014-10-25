@@ -10,12 +10,12 @@ It original dataset are from [http://archive.ics.uci.edu/ml/datasets/Human+Activ
 
 **Activity**
       Activity types: 
-       *LAYING
-       *SITTING
-       *STANDING
-       *WALKING
-       *WALKING_DOWNSTAIRS
-       *WALKING_UPSTAIRS
+       * LAYING
+       * SITTING
+       * STANDING
+       * WALKING
+       * WALKING_DOWNSTAIRS
+       * WALKING_UPSTAIRS
 
 Plus 79 variables that contains average value of each measurment by each subject in each activity
 These signals were used to estimate variables of the feature vector for each pattern:  
