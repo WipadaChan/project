@@ -70,3 +70,6 @@ for (i in 3:80){
 
 # order a final dataset
 finalDataset <- avgData[order(avgData[,1], avgData[,2]),]
+colnames(finalDataset)[1]<-"Subjectid"
+colnames(finalDataset)[2]<-"Activity"
+write.table(finalDataset,file="./dataloc/UCI HAR Dataset/sensor_avg_by_act_sub.txt",row.name=FALSE)
