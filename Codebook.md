@@ -9,13 +9,13 @@ It original dataset are from [http://archive.ics.uci.edu/ml/datasets/Human+Activ
       Subject Identification number (range from 1-30)
 
 **Activity**
-      Activity types 
-      *LAYING
-      *SITTING
-      *STANDING
-      *WALKING
-      *WALKING_DOWNSTAIRS
-      *WALKING_UPSTAIRS
+      Activity types: 
+       *LAYING
+       *SITTING
+       *STANDING
+       *WALKING
+       *WALKING_DOWNSTAIRS
+       *WALKING_UPSTAIRS
 
 Plus 79 variables that contains average value of each measurment by each subject in each activity
 These signals were used to estimate variables of the feature vector for each pattern:  
